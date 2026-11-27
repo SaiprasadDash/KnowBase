@@ -1,0 +1,45 @@
+
+# Java / Spring Boot
+**/target/
+*.class
+*.jar
+
+# Python
+**/__pycache__/
+**/.venv/
+**/venv/
+*.pyc
+
+# Node / React
+**/node_modules/
+**/dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+
+# Database backups and dumps
+*.backup
+*.dump
+
+# Logs
+*.log
+
+
+# Local database configuration
+backend/src/main/resources/application.properties
+
+# PostgreSQL files
+enterprise_rag.sql
+enterprise_rag.backup
+
+# pgvector source
+pgvector/
