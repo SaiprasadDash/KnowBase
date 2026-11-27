@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+psycopg[binary]
+pgvector
+numpy
+pymupdf
+python-multipart
+python-dotenv
+sentence-transformers
+groq
+ragas
